@@ -1,0 +1,16 @@
+INSERT INTO users (user_id, name, email, role, status, last_login, created_at) VALUES
+('USR001', 'Alice Johnson',  'alice@example.com',   'ADMINISTRATOR',    'ACTIVE',   '2026-05-12 10:30:00', '2026-01-10 09:00:00'),
+('USR002', 'Bob Williams',   'bob@example.com',     'USER',             'ACTIVE',   '2026-05-14 11:25:00', '2026-01-15 09:30:00'),
+('USR003', 'Charlie Brown',  'charlie@example.com', 'EDITOR',           'ACTIVE',   '2026-05-18 11:20:00', '2026-02-01 10:00:00'),
+('USR004', 'Diana Smith',    'diana@example.com',   'BUSINESS_ANALYST', 'ACTIVE',   '2026-06-27 10:30:00', '2026-02-20 14:00:00'),
+('USR005', 'Ethan King',     'ethan@example.com',   'USER',             'INACTIVE', '2026-06-28 14:14:00', '2026-03-05 11:00:00'),
+('USR006', 'Fiona Clark',    'fiona@example.com',   'VIEWER',           'ACTIVE',   '2026-07-02 09:15:00', '2026-03-18 16:00:00'),
+('USR007', 'George Miller',  'george@example.com',  'USER',             'INACTIVE', '2026-04-22 17:45:00', '2026-04-02 10:20:00'),
+('USR008', 'Hannah Davis',   'hannah@example.com',  'EDITOR',           'ACTIVE',   '2026-09-30 08:50:00', '2026-04-25 12:00:00'),
+('USR009', 'Ian Wilson',     'ian@example.com',     'USER',             'ACTIVE',   '2026-10-01 13:05:00', '2026-05-09 09:45:00'),
+('USR010', 'Julia Moore',    'julia@example.com',   'BUSINESS_ANALYST', 'INACTIVE', '2026-03-11 15:30:00', '2026-06-14 10:10:00'),
+('USR011', 'Kevin Taylor',   'kevin@example.com',   'USER',             'ACTIVE',   '2026-10-05 10:00:00', '2026-10-01 09:00:00'),
+('USR012', 'Laura Anderson', 'laura@example.com',   'VIEWER',           'ACTIVE',   '2026-10-06 11:40:00', '2026-10-02 10:30:00'),
+('USR013', 'Mohan Raj',      'mohan@example.com',   'EDITOR',           'ACTIVE',   NULL,                  '2026-10-03 14:15:00'),
+('USR014', 'Nisha Patel',    'nisha@example.com',   'USER',             'INACTIVE', NULL,                  '2026-10-05 16:20:00'),
+('USR015', 'Omar Hassan',    'omar@example.com',    'ADMINISTRATOR',    'ACTIVE',   '2026-10-07 09:10:00', '2026-10-06 09:00:00');
