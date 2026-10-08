@@ -1,4 +1,4 @@
-# edabip-dheepanraj-api
+# edabip-api
 
 **EDABIP – Enterprise Data Analytics & Business Intelligence Platform**
 Module: **Users – User Management API** (Dheepanraj)
@@ -22,15 +22,15 @@ REST API to list (pagination + search), get, add, edit and delete users, plus us
 
 ### Option A – run with H2 (default, nothing to install but JDK + Maven)
 ```bash
-git clone https://github.com/<your-username>/edabip-dheepanraj-api.git
-cd edabip-dheepanraj-api
+git clone https://github.com/<your-username>/edabip-api.git
+cd edabip-api
 mvn spring-boot:run
 ```
 `schema.sql` and `data.sql` run automatically on startup (15 seed users).
 
-* API base URL: `http://localhost:8080/api/v1/users`
+* API base URL: `http://localhost:8080/api/users`
 * Swagger UI: `http://localhost:8080/swagger-ui.html`
-* OpenAPI JSON: `http://localhost:8080/v3/api-docs`
+* OpenAPI JSON: `http://localhost:8080/api-docs`
 * H2 console: `http://localhost:8080/h2-console` (JDBC URL `jdbc:h2:mem:edabip`, user `sa`, empty password)
 
 ### Option B – MySQL
